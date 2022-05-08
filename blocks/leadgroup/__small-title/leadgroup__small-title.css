@@ -1,0 +1,25 @@
+.leadgroup__small-title {
+  margin: 0 0 5.2%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.41;
+}
+
+@media screen and (max-width: 1023px) {
+  .leadgroup__small-title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .leadgroup__small-title {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .leadgroup__small-title {
+    font-size: 22px;
+    margin: 0;
+  }
+}

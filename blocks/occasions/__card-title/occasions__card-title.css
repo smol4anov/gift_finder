@@ -1,0 +1,18 @@
+.occasions__card-title {
+  margin: 0 0 27.41% 8.89%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1023px) {
+  .occasions__card-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .occasions__card-title {
+    margin: 0 0 16px 8px;
+  }
+}

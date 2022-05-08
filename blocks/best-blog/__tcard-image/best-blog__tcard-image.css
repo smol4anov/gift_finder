@@ -1,0 +1,16 @@
+.best-blog__tcard-image {
+  max-width: calc(100%*400/1170);
+}
+
+@media screen and (max-width: 767px) {
+  .best-blog__tcard-image {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__tcard-image {
+    max-width: 100%;
+    margin-bottom: 8px;
+  }
+}

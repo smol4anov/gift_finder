@@ -1,0 +1,27 @@
+.best-blog__subtitle {
+  margin: 0 0 calc(100%*71/1440);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .best-blog__subtitle {
+    font-size: 16px;
+    margin: 0 0 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .best-blog__subtitle {
+    font-size: 14px;
+    margin: 0 0 36px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__subtitle {
+    margin: 0 0 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.best-blog__tcard-author {
+  margin: 0 0 calc(100%*27/510);
+  font-size: 14px;
+  line-height: 140.62%;
+}
+
+@media screen and (max-width: 1023px) {
+  .best-blog__tcard-author {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__tcard-author {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+}

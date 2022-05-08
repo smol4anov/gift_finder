@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .leadgroup__image_card {
+    grid-row-start: 4;
+  }
+}

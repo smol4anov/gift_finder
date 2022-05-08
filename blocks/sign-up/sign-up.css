@@ -1,0 +1,28 @@
+.sign-up {
+  display: flex;
+  min-height: 240px;
+  background-color: #F7941E;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16.32% 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .sign-up {
+    min-height: 160px;
+    padding: 0 12% 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up {
+    min-height: 120px;
+    padding: 0 8% 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .sign-up {
+    display: none;
+  }
+}

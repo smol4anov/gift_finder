@@ -1,0 +1,28 @@
+.footer__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  min-width: 620px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__menu {
+    min-width: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    min-width: 380px;
+    padding: 4% 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__menu {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.occasions__card {
+  max-width: 23.08%;
+  transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .occasions__card {
+    max-width: 46%;
+    margin-bottom: 20px;
+  }
+
+  .occasions__card:nth-child(3) {
+    margin: 0;
+  }
+
+  .occasions__card:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .occasions__card {
+    max-width: 100%;
+    margin-bottom: 24px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  }
+
+  .occasions__card:last-child {
+    margin: 0;
+  }
+}
+
+.occasions__card:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.08);
+}

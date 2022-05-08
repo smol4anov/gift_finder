@@ -1,0 +1,75 @@
+/* Обнуляющий стиль */
+@import url(../vendor/normalize.css);
+/* Основной блок */
+@import url(../blocks/page/page.css);
+
+/*Блоки*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/leadgroup/leadgroup.css);
+@import url(../blocks/occasions/occasions.css);
+@import url(../blocks/sign-up/sign-up.css);
+@import url(../blocks/best-blog/best-blog.css);
+@import url(../blocks/footer/footer.css);
+
+/* Элементы */
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__burger/header__burger.css);
+
+@import url(../blocks/leadgroup/__image/leadgroup__image.css);
+@import url(../blocks/leadgroup/__content/leadgroup__content.css);
+@import url(../blocks/leadgroup/__title/leadgroup__title.css);
+@import url(../blocks/leadgroup/__subtitle/leadgroup__subtitle.css);
+@import url(../blocks/leadgroup/__link/leadgroup__link.css);
+@import url(../blocks/leadgroup/__small-title/leadgroup__small-title.css);
+@import url(../blocks/leadgroup/__text/leadgroup__text.css);
+
+@import url(../blocks/occasions/__title/occasions__title.css);
+@import url(../blocks/occasions/__subtitle/occasions__subtitle.css);
+@import url(../blocks/occasions/__cards/occasions__cards.css);
+@import url(../blocks/occasions/__card/occasions__card.css);
+@import url(../blocks/occasions/__link/occasions__link.css);
+@import url(../blocks/occasions/__image/occasions__image.css);
+@import url(../blocks/occasions/__card-title/occasions__card-title.css);
+@import url(../blocks/occasions/__card-text/occasions__card-text.css);
+
+@import url(../blocks/sign-up/__title-group/sign-up__title-group.css);
+@import url(../blocks/sign-up/__title/sign-up__title.css);
+@import url(../blocks/sign-up/__subtitle/sign-up__subtitle.css);
+@import url(../blocks/sign-up/__links/sign-up__links.css);
+@import url(../blocks/sign-up/__link/sign-up__link.css);
+@import url(../blocks/sign-up/__item/sign-up__item.css);
+
+@import url(../blocks/best-blog/__title/best-blog__title.css);
+@import url(../blocks/best-blog/__subtitle/best-blog__subtitle.css);
+@import url(../blocks/best-blog/__tcard/best-blog__tcard.css);
+@import url(../blocks/best-blog/__tcard-image/best-blog__tcard-image.css);
+@import url(../blocks/best-blog/__tcard-text/best-blog__tcard-text.css);
+@import url(../blocks/best-blog/__tcard-author/best-blog__tcard-author.css);
+@import url(../blocks/best-blog/__tcard-title/best-blog__tcard-title.css);
+@import url(../blocks/best-blog/__tcard-link/best-blog__tcard-link.css);
+@import url(../blocks/best-blog/__cards/best-blog__cards.css);
+@import url(../blocks/best-blog/__card/best-blog__card.css);
+@import url(../blocks/best-blog/__card-title/best-blog__card-title.css);
+@import url(../blocks/best-blog/__card-text/best-blog__card-text.css);
+@import url(../blocks/best-blog/__card-link/best-blog__card-link.css);
+
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__divider/footer__divider.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__social-image/footer__social-image.css);
+
+/* Модификаторы */
+@import url(../blocks/leadgroup/__content/_how-work/leadgroup__content_how-work.css);
+@import url(../blocks/leadgroup/__link/_how-work/leadgroup__link_how-work.css);
+@import url(../blocks/leadgroup/__image/_card/leadgroup__image_card.css);
+@import url(../blocks/sign-up/__link/_blackbutton/sign-up__link_blackbutton.css);

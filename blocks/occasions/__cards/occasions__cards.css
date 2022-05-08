@@ -1,0 +1,20 @@
+.occasions__cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(100% - 18.75%);
+}
+
+@media screen and (max-width: 767px) {
+  .occasions__cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .occasions__cards {
+    max-width: 90%;
+  }
+}

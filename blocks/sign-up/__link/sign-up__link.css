@@ -1,0 +1,27 @@
+.sign-up__link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 122.22%;
+  color: #000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px 5px;
+}
+
+@media screen and (max-width: 1023px) {
+  .sign-up__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__link {
+    font-size: 12px;
+    padding: 8px 5px;
+  }
+}

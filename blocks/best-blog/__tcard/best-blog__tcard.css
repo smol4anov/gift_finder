@@ -1,0 +1,19 @@
+.best-blog__tcard {
+  margin: 0 0 40px;
+  display: flex;
+  background-color: #231F20;
+  width: calc(100%*1170/1440);
+}
+
+@media screen and (max-width: 767px) {
+  .best-blog__tcard {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__tcard {
+    flex-direction: column;
+    margin: 0 0 20px;
+  }
+}

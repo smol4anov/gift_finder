@@ -1,0 +1,15 @@
+.sign-up__title-group {
+  min-width: 335px;
+}
+
+@media screen and (max-width: 1023px) {
+  .sign-up__title-group {
+    min-width: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__title-group {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,11 @@
+.leadgroup {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  background-color: #F1F1F2;
+}
+
+@media screen and (max-width: 767px) {
+  .leadgroup {
+    grid-template-columns: 1fr;
+  }
+}

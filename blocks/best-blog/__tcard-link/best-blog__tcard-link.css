@@ -1,0 +1,20 @@
+.best-blog__tcard-link {
+  align-self: flex-start;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 140.62%;
+}
+
+@media screen and (max-width: 1023px) {
+  .best-blog__tcard-link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__tcard-link {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+}

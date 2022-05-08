@@ -1,0 +1,26 @@
+.leadgroup__text {
+  margin: 0 0 7.92%;
+  font-size: 20px;
+  line-height: 1.41;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1023px) {
+  .leadgroup__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .leadgroup__text {
+    grid-row: 1/3;
+    grid-column-start: 2;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .leadgroup__text {
+    margin: 0;
+  }
+}

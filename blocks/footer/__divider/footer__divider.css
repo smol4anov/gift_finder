@@ -1,0 +1,25 @@
+.footer__divider {
+  margin: 0 0 calc(100%*55/1440);
+  width: calc(100%*1000/1440);
+  border: 1px solid #000;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__divider {
+    margin: 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__divider {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__divider {
+    width: 90%;
+  }
+}

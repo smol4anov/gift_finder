@@ -1,0 +1,19 @@
+.occasions__card-text {
+  margin: 0 0 8.89% 8.89%;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+@media screen and (max-width: 1023px) {
+  .occasions__card-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .occasions__card-text {
+    margin: 0 0 8px 8px;
+  }
+}

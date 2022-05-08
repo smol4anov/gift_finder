@@ -1,0 +1,17 @@
+.sign-up__subtitle {
+  margin: 0;
+  font-size: 32px;
+  line-height: 140.62%;
+}
+
+@media screen and (max-width: 1023px) {
+  .sign-up__subtitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__subtitle {
+    font-size: 18px;
+  }
+}

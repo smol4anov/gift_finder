@@ -1,0 +1,17 @@
+.leadgroup__link_how-work {
+  color: #F7941E;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .leadgroup__link_how-work {
+    justify-self: center;
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .leadgroup__link_how-work {
+    min-width: 120px;
+  }
+}

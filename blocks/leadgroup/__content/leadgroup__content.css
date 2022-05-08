@@ -1,0 +1,25 @@
+.leadgroup__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 22.5%;
+  padding-right: 17.5%;
+}
+
+@media screen and (max-width: 767px) {
+  .leadgroup__content {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 4%;
+    box-sizing: border-box;
+    gap: 10px;
+    min-height: 220px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .leadgroup__content {
+    min-height: 180px;
+  }
+}

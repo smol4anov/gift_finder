@@ -1,0 +1,26 @@
+.footer__logo {
+  margin: 0 -40px -22px;
+  width: 296px;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  line-height: 216.67%;
+  color: #F7941E;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__logo {
+    margin: 0 -40px -22px;
+    width: 198px;
+    height: 118px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    display: none;
+  }
+}

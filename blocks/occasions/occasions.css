@@ -1,0 +1,12 @@
+.occasions {
+  padding: 6.67% 0 9.52%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 424px) {
+  .occasions {
+    padding: 16px 0;
+  }
+}

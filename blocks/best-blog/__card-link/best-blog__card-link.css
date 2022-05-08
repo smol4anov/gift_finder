@@ -1,0 +1,12 @@
+.best-blog__card-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  line-height: 140.62%;
+}
+
+@media screen and (max-width: 1023px) {
+  .best-blog__card-link {
+    font-size: 12px;
+  }
+}

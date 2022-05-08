@@ -1,0 +1,26 @@
+.best-blog__card {
+  width: calc(100%*570/1170);
+  box-sizing: border-box;
+  padding: calc(100%*48/1170);
+  transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.best-blog__card:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 767px) {
+  .best-blog__card {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .best-blog__card {
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  }
+}

@@ -1,0 +1,17 @@
+.sign-up__links {
+  margin: 0;
+  padding: 0;
+  min-width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__links {
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 45%;
+  }
+}
