@@ -1,20 +1,15 @@
 .occasions__subtitle {
   margin: 0 0 64px;
-  font-size: 18px;
-  line-height: 1.36;
-  text-align: center;
 }
 
 @media screen and (max-width: 1023px) {
   .occasions__subtitle {
     margin: 0 0 32px;
-    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .occasions__subtitle {
-    font-size: 14px;
     margin: 0 0 20px;
   }
 }

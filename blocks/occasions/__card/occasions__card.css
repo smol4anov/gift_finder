@@ -1,20 +1,11 @@
 .occasions__card {
-  max-width: 23.08%;
   transition: all 0.3s linear;
 }
 
 @media screen and (max-width: 767px) {
   .occasions__card {
-    max-width: 46%;
+    max-width: 48.75%;
     margin-bottom: 20px;
-  }
-
-  .occasions__card:nth-child(3) {
-    margin: 0;
-  }
-
-  .occasions__card:last-child {
-    margin: 0;
   }
 }
 

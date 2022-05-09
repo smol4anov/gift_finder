@@ -1,13 +1,9 @@
 .occasions__title {
   margin: 0 0 23px;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 1.19;
 }
 
 @media screen and (max-width: 1023px) {
   .occasions__title {
     margin: 0 0 15px;
-    font-size: 26px;
   }
 }
